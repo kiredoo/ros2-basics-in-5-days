@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.010012] (-) JobUnselected: {'identifier': 'actions_quiz'}
+[0.010140] (-) JobUnselected: {'identifier': 'basics_ros2_multithreading'}
+[0.010218] (-) JobUnselected: {'identifier': 'client_pkg'}
+[0.010268] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.010313] (-) JobUnselected: {'identifier': 'example36_pkg'}
+[0.010345] (-) JobUnselected: {'identifier': 'my_action_client'}
+[0.010374] (-) JobUnselected: {'identifier': 'my_action_server'}
+[0.010403] (-) JobUnselected: {'identifier': 'my_package'}
+[0.010430] (-) JobUnselected: {'identifier': 'publisher_pkg'}
+[0.010458] (-) JobUnselected: {'identifier': 'services_quiz'}
+[0.010485] (-) JobUnselected: {'identifier': 'services_quiz_srv'}
+[0.010513] (-) JobUnselected: {'identifier': 'topic_quiz'}
+[0.010540] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.010572] (actions_quiz_msg) JobQueued: {'identifier': 'actions_quiz_msg', 'dependencies': OrderedDict()}
+[0.010609] (actions_quiz_msg) JobStarted: {'identifier': 'actions_quiz_msg'}
+[0.037183] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'cmake'}
+[0.037524] (actions_quiz_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/actions_quiz_msg', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/actions_quiz_msg'], 'cwd': '/home/user/ros2_ws/build/actions_quiz_msg', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/actions_quiz_msg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz:/home/user/ros2_ws/install/services_quiz_srv:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz_srv:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/services_quiz:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/services_quiz_srv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '727dc918-65d7-4525-acf5-b7ad1766a9cf'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25069'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100226] (-) TimerEvent: {}
+[0.200768] (-) TimerEvent: {}
+[0.292295] (actions_quiz_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.301966] (-) TimerEvent: {}
+[0.403161] (-) TimerEvent: {}
+[0.467896] (actions_quiz_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.479533] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.503285] (-) TimerEvent: {}
+[0.603835] (-) TimerEvent: {}
+[0.645620] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.660516] (actions_quiz_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.660890] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.661551] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.666961] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703974] (-) TimerEvent: {}
+[0.804745] (-) TimerEvent: {}
+[0.889823] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.904831] (-) TimerEvent: {}
+[0.909973] (actions_quiz_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.910274] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.911005] (actions_quiz_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.918273] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.004981] (-) TimerEvent: {}
+[1.105581] (-) TimerEvent: {}
+[1.207271] (-) TimerEvent: {}
+[1.302443] (actions_quiz_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.307376] (-) TimerEvent: {}
+[1.407808] (-) TimerEvent: {}
+[1.511734] (-) TimerEvent: {}
+[1.563624] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.611870] (-) TimerEvent: {}
+[1.709520] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.711979] (-) TimerEvent: {}
+[1.735381] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.761463] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.799643] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.812150] (-) TimerEvent: {}
+[1.852535] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.912274] (-) TimerEvent: {}
+[2.012666] (-) TimerEvent: {}
+[2.018665] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.029603] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.112795] (-) TimerEvent: {}
+[2.214747] (-) TimerEvent: {}
+[2.265950] (actions_quiz_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.314955] (-) TimerEvent: {}
+[2.356614] (actions_quiz_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.415274] (-) TimerEvent: {}
+[2.498722] (actions_quiz_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.515483] (-) TimerEvent: {}
+[2.616610] (-) TimerEvent: {}
+[2.717121] (-) TimerEvent: {}
+[2.817808] (-) TimerEvent: {}
+[2.826753] (actions_quiz_msg) StdoutLine: {'line': b'-- Found action_msgs: 1.2.0 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[2.917942] (-) TimerEvent: {}
+[2.950439] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.979073] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.018056] (-) TimerEvent: {}
+[3.124410] (-) TimerEvent: {}
+[3.225510] (-) TimerEvent: {}
+[3.326001] (-) TimerEvent: {}
+[3.426400] (-) TimerEvent: {}
+[3.526940] (-) TimerEvent: {}
+[3.581915] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.627485] (-) TimerEvent: {}
+[3.727917] (-) TimerEvent: {}
+[3.828409] (-) TimerEvent: {}
+[3.928797] (-) TimerEvent: {}
+[4.029195] (-) TimerEvent: {}
+[4.129633] (-) TimerEvent: {}
+[4.169640] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.229783] (-) TimerEvent: {}
+[4.330333] (-) TimerEvent: {}
+[4.430703] (-) TimerEvent: {}
+[4.457538] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.500001] (actions_quiz_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[4.506084] (actions_quiz_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.536001] (-) TimerEvent: {}
+[4.554429] (actions_quiz_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[4.554938] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.555087] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.555209] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.593908] (actions_quiz_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.636125] (-) TimerEvent: {}
+[4.679317] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.681771] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.692170] (actions_quiz_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.736253] (-) TimerEvent: {}
+[4.750311] (actions_quiz_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.755316] (actions_quiz_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/actions_quiz_msg\n'}
+[4.785292] (actions_quiz_msg) CommandEnded: {'returncode': 0}
+[4.787257] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'build'}
+[4.787407] (actions_quiz_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/actions_quiz_msg', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/actions_quiz_msg', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/actions_quiz_msg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz:/home/user/ros2_ws/install/services_quiz_srv:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz_srv:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/services_quiz:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/services_quiz_srv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '727dc918-65d7-4525-acf5-b7ad1766a9cf'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25069'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.836507] (-) TimerEvent: {}
+[4.906520] (actions_quiz_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.936635] (-) TimerEvent: {}
+[5.037384] (-) TimerEvent: {}
+[5.137834] (-) TimerEvent: {}
+[5.238671] (-) TimerEvent: {}
+[5.342249] (-) TimerEvent: {}
+[5.442943] (-) TimerEvent: {}
+[5.543345] (-) TimerEvent: {}
+[5.643708] (-) TimerEvent: {}
+[5.744370] (-) TimerEvent: {}
+[5.788452] (actions_quiz_msg) StdoutLine: {'line': b'[  3%] Built target actions_quiz_msg__cpp\n'}
+[5.844536] (-) TimerEvent: {}
+[5.849982] (actions_quiz_msg) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_actions_quiz_msg\n'}
+[5.879762] (actions_quiz_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.945552] (-) TimerEvent: {}
+[6.045934] (-) TimerEvent: {}
+[6.146312] (-) TimerEvent: {}
+[6.246659] (-) TimerEvent: {}
+[6.347281] (-) TimerEvent: {}
+[6.447717] (-) TimerEvent: {}
+[6.548217] (-) TimerEvent: {}
+[6.556563] (actions_quiz_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/actions_quiz_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actions_quiz_msg/action/detail/distance__type_support.cpp.o\x1b[0m\n'}
+[6.648428] (-) TimerEvent: {}
+[6.748824] (-) TimerEvent: {}
+[6.850453] (-) TimerEvent: {}
+[6.951850] (-) TimerEvent: {}
+[7.053219] (-) TimerEvent: {}
+[7.154539] (-) TimerEvent: {}
+[7.258349] (-) TimerEvent: {}
+[7.358704] (-) TimerEvent: {}
+[7.459149] (-) TimerEvent: {}
+[7.479135] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libactions_quiz_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.559275] (-) TimerEvent: {}
+[7.597895] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] Built target actions_quiz_msg__rosidl_typesupport_introspection_cpp\n'}
+[7.659376] (-) TimerEvent: {}
+[7.759710] (-) TimerEvent: {}
+[7.860112] (-) TimerEvent: {}
+[7.961639] (-) TimerEvent: {}
+[8.047676] (actions_quiz_msg) StdoutLine: {'line': b'running egg_info\n'}
+[8.048398] (actions_quiz_msg) StdoutLine: {'line': b'creating actions_quiz_msg.egg-info\n'}
+[8.049337] (actions_quiz_msg) StdoutLine: {'line': b'writing actions_quiz_msg.egg-info/PKG-INFO\n'}
+[8.049808] (actions_quiz_msg) StdoutLine: {'line': b'writing dependency_links to actions_quiz_msg.egg-info/dependency_links.txt\n'}
+[8.049920] (actions_quiz_msg) StdoutLine: {'line': b'writing top-level names to actions_quiz_msg.egg-info/top_level.txt\n'}
+[8.050016] (actions_quiz_msg) StdoutLine: {'line': b"writing manifest file 'actions_quiz_msg.egg-info/SOURCES.txt'\n"}
+[8.053307] (actions_quiz_msg) StdoutLine: {'line': b"reading manifest file 'actions_quiz_msg.egg-info/SOURCES.txt'\n"}
+[8.054133] (actions_quiz_msg) StdoutLine: {'line': b"writing manifest file 'actions_quiz_msg.egg-info/SOURCES.txt'\n"}
+[8.061757] (-) TimerEvent: {}
+[8.096990] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_actions_quiz_msg_egg\n'}
+[8.112120] (actions_quiz_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.161888] (-) TimerEvent: {}
+[8.262254] (-) TimerEvent: {}
+[8.362742] (-) TimerEvent: {}
+[8.463108] (-) TimerEvent: {}
+[8.563472] (-) TimerEvent: {}
+[8.664328] (-) TimerEvent: {}
+[8.764756] (-) TimerEvent: {}
+[8.802594] (actions_quiz_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/actions_quiz_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actions_quiz_msg/action/detail/dds_fastrtps/distance__type_support.cpp.o\x1b[0m\n'}
+[8.864890] (-) TimerEvent: {}
+[8.965239] (-) TimerEvent: {}
+[9.065677] (-) TimerEvent: {}
+[9.166082] (-) TimerEvent: {}
+[9.267680] (-) TimerEvent: {}
+[9.368117] (-) TimerEvent: {}
+[9.474462] (-) TimerEvent: {}
+[9.574950] (-) TimerEvent: {}
+[9.635455] (actions_quiz_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libactions_quiz_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.676110] (-) TimerEvent: {}
+[9.775103] (actions_quiz_msg) StdoutLine: {'line': b'[ 22%] Built target actions_quiz_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.776294] (-) TimerEvent: {}
+[9.790445] (actions_quiz_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.876445] (-) TimerEvent: {}
+[9.976795] (-) TimerEvent: {}
+[10.077196] (-) TimerEvent: {}
+[10.178795] (-) TimerEvent: {}
+[10.274251] (actions_quiz_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/actions_quiz_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actions_quiz_msg/action/distance__type_support.cpp.o\x1b[0m\n'}
+[10.282874] (-) TimerEvent: {}
+[10.383245] (-) TimerEvent: {}
+[10.483649] (-) TimerEvent: {}
+[10.584004] (-) TimerEvent: {}
+[10.684400] (-) TimerEvent: {}
+[10.788739] (-) TimerEvent: {}
+[10.889134] (-) TimerEvent: {}
+[10.926308] (actions_quiz_msg) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libactions_quiz_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.991790] (-) TimerEvent: {}
+[10.994992] (actions_quiz_msg) StdoutLine: {'line': b'[ 32%] Built target actions_quiz_msg__rosidl_typesupport_cpp\n'}
+[11.012011] (actions_quiz_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.092012] (-) TimerEvent: {}
+[11.196093] (-) TimerEvent: {}
+[11.296462] (-) TimerEvent: {}
+[11.396831] (-) TimerEvent: {}
+[11.499997] (-) TimerEvent: {}
+[11.603014] (-) TimerEvent: {}
+[11.704032] (-) TimerEvent: {}
+[11.762942] (actions_quiz_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_generator_c.dir/rosidl_generator_c/actions_quiz_msg/action/detail/distance__functions.c.o\x1b[0m\n'}
+[11.804424] (-) TimerEvent: {}
+[11.905964] (-) TimerEvent: {}
+[11.955843] (actions_quiz_msg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libactions_quiz_msg__rosidl_generator_c.so\x1b[0m\n'}
+[12.006107] (-) TimerEvent: {}
+[12.021659] (actions_quiz_msg) StdoutLine: {'line': b'[ 41%] Built target actions_quiz_msg__rosidl_generator_c\n'}
+[12.037848] (actions_quiz_msg) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.106244] (-) TimerEvent: {}
+[12.206649] (-) TimerEvent: {}
+[12.307011] (-) TimerEvent: {}
+[12.407393] (-) TimerEvent: {}
+[12.507743] (-) TimerEvent: {}
+[12.608088] (-) TimerEvent: {}
+[12.683024] (actions_quiz_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/actions_quiz_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actions_quiz_msg/action/detail/distance__type_support_c.cpp.o\x1b[0m\n'}
+[12.708225] (-) TimerEvent: {}
+[12.812883] (-) TimerEvent: {}
+[12.913249] (-) TimerEvent: {}
+[13.013679] (-) TimerEvent: {}
+[13.114042] (-) TimerEvent: {}
+[13.214474] (-) TimerEvent: {}
+[13.216950] (actions_quiz_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libactions_quiz_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.314615] (-) TimerEvent: {}
+[13.345785] (actions_quiz_msg) StdoutLine: {'line': b'[ 51%] Built target actions_quiz_msg__rosidl_typesupport_fastrtps_c\n'}
+[13.362842] (actions_quiz_msg) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.414750] (-) TimerEvent: {}
+[13.515117] (-) TimerEvent: {}
+[13.615544] (-) TimerEvent: {}
+[13.715891] (-) TimerEvent: {}
+[13.797627] (actions_quiz_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/actions_quiz_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/actions_quiz_msg/action/distance__type_support.cpp.o\x1b[0m\n'}
+[13.816363] (-) TimerEvent: {}
+[13.871595] (actions_quiz_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libactions_quiz_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.916493] (-) TimerEvent: {}
+[13.940518] (actions_quiz_msg) StdoutLine: {'line': b'[ 61%] Built target actions_quiz_msg__rosidl_typesupport_c\n'}
+[13.957280] (actions_quiz_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.016615] (-) TimerEvent: {}
+[14.118369] (-) TimerEvent: {}
+[14.218731] (-) TimerEvent: {}
+[14.319116] (-) TimerEvent: {}
+[14.419501] (-) TimerEvent: {}
+[14.520093] (-) TimerEvent: {}
+[14.561253] (actions_quiz_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actions_quiz_msg/action/detail/distance__type_support.c.o\x1b[0m\n'}
+[14.620240] (-) TimerEvent: {}
+[14.640142] (actions_quiz_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libactions_quiz_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.720821] (-) TimerEvent: {}
+[14.724114] (actions_quiz_msg) StdoutLine: {'line': b'[ 70%] Built target actions_quiz_msg__rosidl_typesupport_introspection_c\n'}
+[14.753071] (actions_quiz_msg) StdoutLine: {'line': b'[ 70%] Built target actions_quiz_msg\n'}
+[14.788725] (actions_quiz_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.820945] (-) TimerEvent: {}
+[14.921720] (-) TimerEvent: {}
+[15.022073] (-) TimerEvent: {}
+[15.122441] (-) TimerEvent: {}
+[15.222907] (-) TimerEvent: {}
+[15.323406] (-) TimerEvent: {}
+[15.423826] (-) TimerEvent: {}
+[15.524271] (-) TimerEvent: {}
+[15.624683] (-) TimerEvent: {}
+[15.725116] (-) TimerEvent: {}
+[15.825529] (-) TimerEvent: {}
+[15.925850] (-) TimerEvent: {}
+[16.026215] (-) TimerEvent: {}
+[16.126617] (-) TimerEvent: {}
+[16.213391] (actions_quiz_msg) StdoutLine: {'line': b'[ 74%] Built target actions_quiz_msg__py\n'}
+[16.226748] (-) TimerEvent: {}
+[16.247987] (actions_quiz_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_generator_py.dir/rosidl_generator_py/actions_quiz_msg/action/_distance_s.c.o\x1b[0m\n'}
+[16.327416] (-) TimerEvent: {}
+[16.431668] (-) TimerEvent: {}
+[16.497012] (actions_quiz_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_quiz_msg/libactions_quiz_msg__rosidl_generator_py.so\x1b[0m\n'}
+[16.531809] (-) TimerEvent: {}
+[16.573833] (actions_quiz_msg) StdoutLine: {'line': b'[ 80%] Built target actions_quiz_msg__rosidl_generator_py\n'}
+[16.607548] (actions_quiz_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.631915] (-) TimerEvent: {}
+[16.733069] (-) TimerEvent: {}
+[16.814252] (actions_quiz_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.833187] (-) TimerEvent: {}
+[16.893764] (actions_quiz_msg) StdoutLine: {'line': b'[ 87%] Built target actions_quiz_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.933984] (-) TimerEvent: {}
+[16.935990] (actions_quiz_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.034546] (-) TimerEvent: {}
+[17.134977] (-) TimerEvent: {}
+[17.142617] (actions_quiz_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.228394] (actions_quiz_msg) StdoutLine: {'line': b'[ 93%] Built target actions_quiz_msg__rosidl_typesupport_c__pyext\n'}
+[17.235099] (-) TimerEvent: {}
+[17.265723] (actions_quiz_msg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/actions_quiz_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.335221] (-) TimerEvent: {}
+[17.436787] (-) TimerEvent: {}
+[17.453141] (actions_quiz_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.523233] (actions_quiz_msg) StdoutLine: {'line': b'[100%] Built target actions_quiz_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[17.536899] (-) TimerEvent: {}
+[17.542357] (actions_quiz_msg) CommandEnded: {'returncode': 0}
+[17.639499] (-) TimerEvent: {}
+[17.742407] (-) TimerEvent: {}
+[17.762031] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'install'}
+[17.775619] (actions_quiz_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/actions_quiz_msg'], 'cwd': '/home/user/ros2_ws/build/actions_quiz_msg', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/actions_quiz_msg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz:/home/user/ros2_ws/install/services_quiz_srv:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/services_quiz_srv:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/services_quiz:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz_srv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/services_quiz_srv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '727dc918-65d7-4525-acf5-b7ad1766a9cf'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25069'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[17.789588] (actions_quiz_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.790254] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/rosidl_interfaces/actions_quiz_msg\n'}
+[17.790827] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.791249] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg\n'}
+[17.791466] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.791576] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.791714] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.791819] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__functions.c\n'}
+[17.791998] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__functions.h\n'}
+[17.792185] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__type_support.h\n'}
+[17.792580] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__struct.h\n'}
+[17.792699] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/distance.h\n'}
+[17.792899] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/library_path.sh\n'}
+[17.793141] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/library_path.dsv\n'}
+[17.793431] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_generator_c.so\n'}
+[17.794068] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_generator_c.so" to ""\n'}
+[17.794437] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.794691] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg\n'}
+[17.794895] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.795020] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.795230] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.795362] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__rosidl_typesupport_fastrtps_c.h\n'}
+[17.795505] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[17.795833] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.796084] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.796196] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.796735] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.797097] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__builder.hpp\n'}
+[17.797533] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__struct.hpp\n'}
+[17.797831] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__traits.hpp\n'}
+[17.798247] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/distance.hpp\n'}
+[17.798658] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.799037] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg\n'}
+[17.799163] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.799402] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.799821] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.800170] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.800555] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/dds_fastrtps\n'}
+[17.800880] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.801020] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.801336] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.801527] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg\n'}
+[17.801648] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.802054] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.802340] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.802460] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__rosidl_typesupport_introspection_c.h\n'}
+[17.802631] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__type_support.c\n'}
+[17.802769] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_introspection_c.so\n'}
+[17.802884] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.803070] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_c.so\n'}
+[17.803468] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_c.so" to ""\n'}
+[17.803610] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg\n'}
+[17.803766] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action\n'}
+[17.804101] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail\n'}
+[17.804269] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.804432] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/actions_quiz_msg/actions_quiz_msg/action/detail/distance__type_support.cpp\n'}
+[17.804761] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[17.805368] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.805769] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_cpp.so\n'}
+[17.806129] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[17.806723] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/pythonpath.sh\n'}
+[17.807235] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/pythonpath.dsv\n'}
+[17.808379] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg-0.0.0-py3.10.egg-info\n'}
+[17.808505] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.808619] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.808765] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.809010] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.809408] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg\n'}
+[17.809855] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.810001] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.810117] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.810247] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/libactions_quiz_msg__rosidl_generator_py.so\n'}
+[17.810385] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.810490] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/__init__.py\n'}
+[17.810610] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.810713] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/_actions_quiz_msg_s.ep.rosidl_typesupport_c.c\n'}
+[17.810817] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action\n'}
+[17.810920] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action/__init__.py\n'}
+[17.811022] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action/_distance_s.c\n'}
+[17.811134] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action/_distance.py\n'}
+[17.842572] (-) TimerEvent: {}
+[17.873070] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg'...\n"}
+[17.873328] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/__init__.py'...\n"}
+[17.873463] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action'...\n"}
+[17.873587] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action/__init__.py'...\n"}
+[17.873700] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/action/_distance.py'...\n"}
+[17.880015] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.880656] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.880914] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.881478] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.881750] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.882347] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/actions_quiz_msg/actions_quiz_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.882503] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_generator_py.so\n'}
+[17.883021] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libactions_quiz_msg__rosidl_generator_py.so" to ""\n'}
+[17.883200] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/action/Distance.idl\n'}
+[17.883411] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/action/Distance.action\n'}
+[17.883749] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/package_run_dependencies/actions_quiz_msg\n'}
+[17.885062] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/parent_prefix_path/actions_quiz_msg\n'}
+[17.885212] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/ament_prefix_path.sh\n'}
+[17.885322] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/ament_prefix_path.dsv\n'}
+[17.885421] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/path.sh\n'}
+[17.888054] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/environment/path.dsv\n'}
+[17.888215] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/local_setup.bash\n'}
+[17.888349] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/local_setup.sh\n'}
+[17.888510] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/local_setup.zsh\n'}
+[17.888654] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/local_setup.dsv\n'}
+[17.888761] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/package.dsv\n'}
+[17.888921] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/packages/actions_quiz_msg\n'}
+[17.889053] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_generator_cExport.cmake\n'}
+[17.889150] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.889252] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.889414] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.889560] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_generator_cppExport.cmake\n'}
+[17.889654] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.889787] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.889897] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.890986] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.891135] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_cExport.cmake\n'}
+[17.891228] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.891344] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.891446] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.891584] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_cppExport.cmake\n'}
+[17.891730] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.891836] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_generator_pyExport.cmake\n'}
+[17.891972] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/export_actions_quiz_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.892075] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[17.892153] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.892239] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.892321] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.892434] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.892742] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.892909] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.892996] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msgConfig.cmake\n'}
+[17.893108] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/cmake/actions_quiz_msgConfig-version.cmake\n'}
+[17.893214] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/actions_quiz_msg/package.xml\n'}
+[17.896849] (actions_quiz_msg) CommandEnded: {'returncode': 0}
+[17.944004] (-) TimerEvent: {}
+[18.047984] (-) TimerEvent: {}
+[18.134100] (actions_quiz_msg) JobEnded: {'identifier': 'actions_quiz_msg', 'rc': 0}
+[18.135342] (-) EventReactorShutdown: {}
